@@ -1,11 +1,8 @@
-import "./App.css";
+import React from "react";
+import UzbekPlovPage from "./pages/UzbekPlovPage.jsx";
 
 function App() {
-  return (
-    <>
-      <div></div>
-    </>
-  );
+  return <UzbekPlovPage />;
 }
 
 export default App;
