@@ -4,26 +4,30 @@ const UzbekPlovPage = () => {
   return (
     <div className="min-h-screen bg-white">
       <header className="bg-white shadow-sm border-b">
-        <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
-          <div className="flex items-center space-x-3">
-            <div className="w-30 h-30 flex items-center justify-center">
+        <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-[72px]">
+          {/* Левая часть - Логотип и текст */}
+          <div className="flex items-center">
+            {/* Логотип */}
+            <div>
+              {" "}
               <img
                 src="/logo.png"
                 alt="Uラボ Logo"
-                className="w-30 h-30 object-contain"
+                className="h-14 w-auto object-contain"
               />
             </div>
-            <div>
-              <div className="text-sm text-gray-600 font-medium">
-                ウズベキスタン情報局
-              </div>
+
+            <div className="text-sm text-gray-600 font-medium  pl-4 ml-4">
+              ウズベキスタン情報局
             </div>
           </div>
-          <nav className="hidden md:flex items-center space-x-6">
-            <div className="flex items-center space-x-1 text-gray-700 hover:text-gray-900 cursor-pointer">
+
+          {/* Правая часть - Навигация */}
+          <nav className="hidden lg:flex items-center space-x-6">
+            <div className="flex items-center space-x-1 text-gray-700 hover:text-blue-500 cursor-pointer">
               <span className="text-sm font-medium">基本情報</span>
               <svg
-                className="w-4 h-4"
+                className="w-4 h-4 text-gray-400"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -36,10 +40,10 @@ const UzbekPlovPage = () => {
                 />
               </svg>
             </div>
-            <div className="flex items-center space-x-1 text-gray-700 hover:text-gray-900 cursor-pointer">
+            <div className="flex items-center space-x-1 text-gray-700 hover:text-blue-500 cursor-pointer">
               <span className="text-sm font-medium">エリアガイド</span>
               <svg
-                className="w-4 h-4"
+                className="w-4 h-4 text-gray-400"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -52,12 +56,18 @@ const UzbekPlovPage = () => {
                 />
               </svg>
             </div>
-            <span className="text-gray-700 hover:text-gray-900 cursor-pointer text-sm font-medium">
+            <a
+              href="#"
+              className="text-gray-700 hover:text-blue-500 cursor-pointer text-sm font-medium"
+            >
               モデルコース
-            </span>
-            <span className="text-gray-700 hover:text-gray-900 cursor-pointer text-sm font-medium">
+            </a>
+            <a
+              href="#"
+              className="text-gray-700 hover:text-blue-500 cursor-pointer text-sm font-medium"
+            >
               ビジネス
-            </span>
+            </a>
             <button className="bg-blue-500 hover:bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-medium">
               お問い合わせする
             </button>
@@ -65,7 +75,6 @@ const UzbekPlovPage = () => {
         </div>
       </header>
 
-      {/* Breadcrumb */}
       <div className="bg-gray-50 py-1">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-sm text-gray-600">
@@ -106,7 +115,6 @@ const UzbekPlovPage = () => {
             </p>
           </div>
 
-          {/* Table of Contents - точно как в оригинале */}
           <div className="bg-blue-50 border border-blue-100 rounded-lg p-6 mb-8">
             <h2 className="text-xl font-bold text-center mb-6 text-gray-800">
               目次
