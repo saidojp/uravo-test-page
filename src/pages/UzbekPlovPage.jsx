@@ -3,21 +3,25 @@ import React from "react";
 const UzbekPlovPage = () => {
   return (
     <div className="min-h-screen bg-white">
-      {/* Header - точно как в оригинале */}
       <header className="bg-white shadow-sm border-b">
-        <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-green-500 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">U</span>
+            <div className="w-30 h-30 flex items-center justify-center">
+              <img
+                src="/logo.png"
+                alt="Uラボ Logo"
+                className="w-30 h-30 object-contain"
+              />
             </div>
             <div>
-              <span className="text-2xl font-bold text-green-600">Uラボ</span>
-              <div className="text-sm text-gray-600">ウズベキスタン情報局</div>
+              <div className="text-sm text-gray-600 font-medium">
+                ウズベキスタン情報局
+              </div>
             </div>
           </div>
-          <nav className="hidden md:flex items-center space-x-8">
-            <div className="flex items-center space-x-1 text-gray-700">
-              <span>基本</span>
+          <nav className="hidden md:flex items-center space-x-6">
+            <div className="flex items-center space-x-1 text-gray-700 hover:text-gray-900 cursor-pointer">
+              <span className="text-sm font-medium">基本情報</span>
               <svg
                 className="w-4 h-4"
                 fill="none"
@@ -32,8 +36,8 @@ const UzbekPlovPage = () => {
                 />
               </svg>
             </div>
-            <div className="flex items-center space-x-1 text-gray-700">
-              <span>ガイドブック</span>
+            <div className="flex items-center space-x-1 text-gray-700 hover:text-gray-900 cursor-pointer">
+              <span className="text-sm font-medium">エリアガイド</span>
               <svg
                 className="w-4 h-4"
                 fill="none"
@@ -48,17 +52,21 @@ const UzbekPlovPage = () => {
                 />
               </svg>
             </div>
-            <span className="text-gray-700">モデル</span>
-            <span className="text-gray-700">ビジ</span>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-full text-sm font-medium">
-              Связаться с нами
+            <span className="text-gray-700 hover:text-gray-900 cursor-pointer text-sm font-medium">
+              モデルコース
+            </span>
+            <span className="text-gray-700 hover:text-gray-900 cursor-pointer text-sm font-medium">
+              ビジネス
+            </span>
+            <button className="bg-blue-500 hover:bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-medium">
+              お問い合わせする
             </button>
           </nav>
         </div>
       </header>
 
       {/* Breadcrumb */}
-      <div className="bg-gray-50 py-2">
+      <div className="bg-gray-50 py-1">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-sm text-gray-600">
             Uラボ｜ウズベキスタン情報局 ＞
@@ -89,7 +97,7 @@ const UzbekPlovPage = () => {
           {/* Hero Image */}
           <div className="mb-8">
             <img
-              src="./assets/images/main.jpeg"
+              src="https://images.unsplash.com/photo-1574653106583-46aeb90ac742?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
               alt="ウズベキスタンの伝統的なプロフ"
               className="w-full h-80 object-cover rounded-lg"
             />
@@ -118,7 +126,7 @@ const UzbekPlovPage = () => {
               <div className="ml-8 text-gray-600">
                 1-2-3. イスラム文化とウズベキスタン
               </div>
-              <div className="ml-8 text-gray-600">
+              {/* <div className="ml-8 text-gray-600">
                 1-2-4. ウズベキスタンの伝統工芸
               </div>
               <div className="ml-6 text-gray-700">
@@ -155,7 +163,7 @@ const UzbekPlovPage = () => {
                 4. ウズベキスタン旅行の主要点と安全対策
               </div>
               <div className="ml-6 text-gray-700">4-1. 治安情報と安全対策</div>
-              <div className="ml-6 text-gray-700">4-2. ビザと入国手続き</div>
+              <div className="ml-6 text-gray-700">4-2. ビザと入国手続き</div> */}
 
               <div className="font-bold text-blue-600 pt-2">まとめ</div>
             </div>
@@ -514,8 +522,12 @@ const UzbekPlovPage = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-3">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-green-500 rounded flex items-center justify-center">
-                <span className="text-white font-bold">U</span>
+              <div className="w-10 h-8 flex items-center justify-center">
+                <img
+                  src="/logo.png"
+                  alt="Uラボ Logo"
+                  className="w-10 h-6 object-contain"
+                />
               </div>
               <span className="text-lg font-bold text-gray-800">
                 Uラボ ウズベキスタン情報局
