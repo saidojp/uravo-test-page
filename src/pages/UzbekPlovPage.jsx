@@ -113,7 +113,7 @@ const UzbekPlovPage = () => {
               className="w-full h-100 object-cover rounded-lg"
             />
             <p className="text-gray-600 text-sm mt-3 leading-relaxed">
-              ウズベキスタンのプロフ（ピラフ）、スパイス、文化、料理法、注意点など、料理愛好家が知りたい情報を網羅した完全ガイド。安全で充実した料理のための必読コンテンツです。
+              シルクロードの美食文化が息づくウズベキスタンの国民食「プロフ」。本格レシピ、文化的背景、日本で味わえる場所まで、プロフの全てを詳しく解説します。
             </p>
           </div>
 
@@ -123,18 +123,36 @@ const UzbekPlovPage = () => {
             </h2>
             <div className="space-y-1 text-sm">
               <div className="font-bold text-gray-800">
-                1. ウズベキスタンプロフとは？歴史と文化の魅力
+                1. ウズベキスタンのプロフとは？基本知識と文化的意義
               </div>
               <div className="ml-6 text-gray-700">1-1. プロフの基本情報</div>
-              <div className="ml-6 text-gray-700">1-2. 歴史的背景と文化</div>
+              <div className="ml-6 text-gray-700">1-2. 文化的・社会的意義</div>
               <div className="ml-8 text-gray-600">
-                1-2-1. シルクロードとウズベキスタン
+                1-2-1. 国民食としての地位
               </div>
               <div className="ml-8 text-gray-600">
-                1-2-2. ティムール帝国の時代
+                1-2-2. プロフの語源と歴史
               </div>
               <div className="ml-8 text-gray-600">
-                1-2-3. イスラム文化とウズベキスタン
+                1-2-3. 男性が作る伝統料理
+              </div>
+
+              <div className="font-bold text-gray-800 pt-2">
+                2. プロフの種類と地域別特徴
+              </div>
+              <div className="ml-6 text-gray-700">2-1. 主要な種類</div>
+              <div className="ml-6 text-gray-700">
+                2-2. 使用される米と肉の種類
+              </div>
+
+              <div className="font-bold text-gray-800 pt-2">
+                3. 本格プロフの作り方（家庭版レシピ）
+              </div>
+              <div className="ml-6 text-gray-700">3-1. 必要な材料</div>
+              <div className="ml-6 text-gray-700">3-2. 調理手順</div>
+
+              <div className="font-bold text-gray-800 pt-2">
+                4. 日本でプロフを味わえる場所
               </div>
 
               <div className="font-bold text-blue-600 pt-2">まとめ</div>
@@ -147,7 +165,7 @@ const UzbekPlovPage = () => {
             <div className="mb-12">
               <div className="border-l-4 border-blue-500 pl-4 mb-8">
                 <h2 className="text-2xl font-bold text-gray-800 mb-0">
-                  1. ウズベキスタンプロフとは？歴史と文化の魅力
+                  1. ウズベキスタンのプロフとは？基本知識と文化的意義
                 </h2>
               </div>
 
@@ -158,145 +176,71 @@ const UzbekPlovPage = () => {
               </div>
 
               <p className="text-gray-700 leading-relaxed mb-6">
-                ウズベキスタンは中央アジアに位置し、シルクロード沿いに栄えた重要な国です。以下はウズベキスタンプロフに関する基本情報です。
+                プロフ（ウズベク語：Palov）は、ウズベキスタンをはじめとする中央アジア諸国の国民食として愛され続けている米料理です。単なる炊き込みご飯を超えた、深い文化的意義を持つ特別な料理として位置づけられています。
               </p>
 
               <div className="bg-gray-50 p-6 rounded-lg mb-8 border">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
                   <div>
-                    <span className="font-semibold">首都：</span>タシケント
+                    <span className="font-semibold">正式名称：</span>
+                    Palov（パロフ）/ Plov（プロフ）
                   </div>
                   <div>
-                    <span className="font-semibold">言語：</span>ウズベク語
+                    <span className="font-semibold">料理分類：</span>
+                    米料理（炊き込みご飯系）
                   </div>
                   <div>
-                    <span className="font-semibold">通貨：</span>
-                    ウズベキスタン・スム
+                    <span className="font-semibold">主な材料：</span>
+                    米、羊肉（牛肉）、人参、玉ねぎ
                   </div>
                   <div>
-                    <span className="font-semibold">人口：</span>約3,400万人
+                    <span className="font-semibold">調理法：</span>
+                    大きな釜での炊き込み
                   </div>
                 </div>
               </div>
 
               <div className="border-l-4 border-blue-300 pl-4 mb-6">
                 <h3 className="text-xl font-bold text-gray-800 mb-0">
-                  1-2. 歴史的背景と文化
+                  1-2. 文化的・社会的意義
                 </h3>
               </div>
 
               <p className="text-gray-700 leading-relaxed mb-6">
-                ウズベキスタンは、シルクロードにおける重要な交易都市が集まっていた歴史的な背景を持ち、その文化遺産は非常に豊かです。ウズベキスタンプロフの魅力を深く理解するためには、その歴史と文化をしっかりと知ることが大切です。
+                プロフは単なる料理以上の存在です。ウズベキスタンの社会において、家族の絆を深め、客人をもてなし、特別な日を祝う象徴的な料理として機能しています。その文化的重要性を理解することで、プロフの真の魅力を感じることができるでしょう。
               </p>
 
               <h4 className="font-bold text-gray-800 mb-3">
-                1-2-1. シルクロードとウズベキスタン
+                1-2-1. 国民食としての地位
               </h4>
               <p className="text-gray-700 leading-relaxed mb-4">
-                ウズベキスタンはシルクロードの中心に位置しており、古代から多くの文化と文化交流の要所でした。シルクロードは中国からヨーロッパにまでの長い道のりで、商人や旅行者が行き交い、各地の文化が融合していきました。この交流により、ウズベキスタンはさまざまな文化的影響を受けました。
+                プロフはウズベキスタンをはじめ、タジキスタン、カザフスタン、キルギスタン、トルクメニスタンの中央アジア5カ国で国民食として愛されています。結婚式、誕生日、宗教的な祝日など、人生の重要な節目には必ずプロフが振る舞われます。
               </p>
 
               <p className="text-gray-700 leading-relaxed mb-6">
-                特に、サマルカンドやブハラはシルクロードを通じて栄え、商業と学問の中心として多くの学者や芸術家を引き寄せました。サマルカンドには、ティムール帝国時代の壮大な建築物が数多く残されており、これらの建築物は現在も世界遺産として保護されています。
+                興味深いことに、プロフは宴会の「締めくくり」を意味する料理でもあります。家の主人がプロフを作って出すことで、「今日の集まりはここでお開きです」という合図になるのです。この慣習は現在でも厳格に守られています。
               </p>
 
               <h4 className="font-bold text-gray-800 mb-3">
-                1-2-2. ティムール帝国の時代
+                1-2-2. プロフの語源と歴史
               </h4>
               <p className="text-gray-700 leading-relaxed mb-4">
-                ウズベキスタンの歴史でも重要な時期の一つは、ティムール帝国の時代です。ティムール（別名タメルラン）は14世紀にウズベキスタンのサマルカンドを首都とし、広大な帝国を築きました。ティムールは軍事的な才能だけでなく、文化のパトロンとしても知れらています。サマルカンドにはティムール帝国の栄光を物語る象徴的な建築物です。
+                プロフの語源は、トルコやインドの伝統的な米料理「プラウ（Pulao）」に由来すると考えられています。シルクロードを通じた文化交流により、各地の調理法や香辛料が融合し、現在のプロフの形が完成しました。
               </p>
 
               <p className="text-gray-700 leading-relaxed mb-6">
-                ティムール帝国の影響はウズベキスタンだけでなく、中央アジア全体に及び、その後の歴史に大きな影響を与えました。サマルカンドのレギスタン広場やシャーヒ・ズィンダ廟群は、ティムール帝国の栄光を物語る象徴的な建築物です。
+                中国からヨーロッパに至るシルクロードの要所に位置するウズベキスタンでは、東西の食文化が出会い、独自の発展を遂げました。そのため、プロフには中国の炒飯、インドのビリヤニ、中東のピラフの要素が巧みに組み合わされているのです。
               </p>
 
               <h4 className="font-bold text-gray-800 mb-3">
-                1-2-3. イスラム文化とウズベキスタン
+                1-2-3. 男性が作る伝統料理
               </h4>
               <p className="text-gray-700 leading-relaxed mb-4">
-                ウズベキスタンの文化は、イスラム教の影響を色濃く受けています。ウズベキスタンは、イスラム教の重要な宗教都市が点在する地域であり、特にブハラとサマルカンドは歴史的にイスラム学問の中心地として栄えました。
-              </p>
-
-              <p className="text-gray-700 leading-relaxed mb-6">
-                ウズベキスタンの建物や装飾は、イスラム文化の影響を色濃く反映しています。美しいモスクやマドレ（学校）、ミナレット（塔）などがその象徴です。また、ウズベキスタンでは、イスラム教の祭日や伝統的な行事がとも大切にされており、訪れることでその豊かな宗教文化を体験することができます。
-              </p>
-
-              <h4 className="font-bold text-gray-800 mb-3">
-                1-2-4. ウズベキスタンの伝統工芸
-              </h4>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                ウズベキスタンはその伝統工芸でも有名です。特に、刺繍やタイル細工、手織りの絨毯などが挙げられます。サマルカンドやブハラでは、地元の職人が手作りの工芸品を売っており、これらの品々は観光客にとってお土産として人気です。
+                ウズベキスタンでは伝統的に、プロフは男性（特に家の主人）が作る料理とされています。これは単なる習慣ではなく、プロフ作りが一種の技術であり、社会的責任の表れと考えられているからです。
               </p>
 
               <p className="text-gray-700 leading-relaxed mb-8">
-                また、ウズベキスタンの刺繍や絨毯は、伝統的な技術とデザインに基づいており、その精密さと美しさは世界的に評価されています。旅行中にこれらの工芸品を購入することは、ウズベキスタンの文化をより深く理解する手段ともなります。
-              </p>
-            </div>
-
-            {/* Section 1-3 */}
-            <div className="mb-12">
-              <div className="border-l-4 border-blue-300 pl-4 mb-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-0">
-                  1-3. 日本からウズベキスタンへのアクセス方法
-                </h3>
-              </div>
-
-              <p className="text-gray-700 leading-relaxed mb-6">
-                日本からウズベキスタンへのアクセスは、飛行機が最も一般的な方法です。ウズベキスタンの首都タシケントには、毎週土曜日に日本からの直行便（タシケント行き）、金曜日にウズベキスタンから日本への直行便が運航されています。この便は、ウズベキスタン航空（Uzbekistan
-                Airways）が運航しており、主に成田空港（東京）とタシケントの間を結んでいます。
-              </p>
-
-              <div className="bg-gray-50 p-6 rounded-lg mb-6 border">
-                <h4 className="font-bold text-gray-800 mb-4">
-                  日本からウズベキスタンの直行便
-                </h4>
-                <div className="space-y-2 text-sm">
-                  <div>
-                    <span className="font-semibold">• 出発地：</span>
-                    成田空港（東京）
-                  </div>
-                  <div>
-                    <span className="font-semibold">• 到着地：</span>
-                    タシケント国際空港
-                  </div>
-                  <div>
-                    <span className="font-semibold">• フライト時間：</span>
-                    約9～10時間
-                  </div>
-                  <div>
-                    <span className="font-semibold">• 運航日：</span>
-                    毎週水曜日（東京発）
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-gray-50 p-6 rounded-lg mb-8 border">
-                <h4 className="font-bold text-gray-800 mb-4">
-                  ウズベキスタンから日本への直行便
-                </h4>
-                <div className="space-y-2 text-sm">
-                  <div>
-                    <span className="font-semibold">• 出発地：</span>
-                    タシケント国際空港
-                  </div>
-                  <div>
-                    <span className="font-semibold">• 到着地：</span>
-                    成田空港（東京）
-                  </div>
-                  <div>
-                    <span className="font-semibold">• フライト時間：</span>
-                    約9～10時間
-                  </div>
-                  <div>
-                    <span className="font-semibold">• 運航日：</span>
-                    毎週金曜日（タシケント発）
-                  </div>
-                </div>
-              </div>
-
-              <p className="text-gray-700 leading-relaxed mb-8">
-                フライト時間は約9～10時間で、比較的直行便でアクセスしやすいのが特徴です。直行便を利用することで、長時間の乗り継ぎを避け、快適にウズベキスタンへ到着できます。
+                大勢の客人をもてなすために大量のプロフを作ることは、家の主人としての威厳と技量を示す重要な機会です。そのため、プロフの腕前は男性の社会的評価にも影響を与えるほど重要視されています。
               </p>
             </div>
 
@@ -304,86 +248,263 @@ const UzbekPlovPage = () => {
             <div className="mb-12">
               <div className="border-l-4 border-blue-500 pl-4 mb-8">
                 <h2 className="text-2xl font-bold text-gray-800 mb-0">
-                  2. ウズベキスタンプロフの主要材料と見どころ
+                  2. プロフの種類と地域別特徴
                 </h2>
               </div>
 
               <div className="border-l-4 border-blue-300 pl-4 mb-6">
                 <h3 className="text-xl font-bold text-gray-800 mb-0">
-                  2-1. サマルカンド：歴史と建築の宝庫
+                  2-1. 主要な種類
                 </h3>
               </div>
 
               <p className="text-gray-700 leading-relaxed mb-6">
-                サマルカンドは、シルクロードの要所として栄えた歴史的な都市です。その美しい建築群は、訪れる人々に深い感銘を与えます。
+                ウズベキスタン国内でも地域によってプロフの作り方や具材に違いがあります。それぞれの地域の特色を活かした個性豊かなプロフが存在し、その多様性もプロフの魅力の一つです。
               </p>
 
-              <div className="space-y-4 mb-8">
-                <div>
-                  <span className="font-semibold">• レギスタン広場：</span>
-                  ティムール帝国時代の壮大な広場で、三つの巨大なメドレセが立ち並んでいます。
+              <div className="space-y-6 mb-8">
+                <div className="bg-gray-50 p-4 rounded-lg border">
+                  <h4 className="font-semibold text-gray-800 mb-2">
+                    サマルカンド・プロフ
+                  </h4>
+                  <p className="text-sm text-gray-700">
+                    最もシンプルで伝統的なスタイル。肉、人参、玉ねぎのみを使用し、素材の味を最大限に活かした上品な仕上がりが特徴です。
+                  </p>
                 </div>
-                <div>
-                  <span className="font-semibold">
-                    • シャーヒ・ズィンダ廟群：
-                  </span>
-                  ティムール帝国時代の王族や聖人を記った美しい霊廟群です。
+
+                <div className="bg-gray-50 p-4 rounded-lg border">
+                  <h4 className="font-semibold text-gray-800 mb-2">
+                    タシケント・プロフ
+                  </h4>
+                  <p className="text-sm text-gray-700">
+                    より豪華なバージョンで、ひよこ豆、レーズン、バーベリーなどを加えます。甘みと酸味のバランスが絶妙な現代的なスタイルです。
+                  </p>
                 </div>
-                <div>
-                  <span className="font-semibold">
-                    • ビビ・ハヌム・モスク：
-                  </span>
-                  当時世界最大のモスクの一つで、圧倒的なスケールを誇ります。
+
+                <div className="bg-gray-50 p-4 rounded-lg border">
+                  <h4 className="font-semibold text-gray-800 mb-2">
+                    結婚式のプロフ
+                  </h4>
+                  <p className="text-sm text-gray-700">
+                    特別な日のための最高級プロフ。ゆで卵、馬肉ソーセージ、様々なドライフルーツを贅沢に使用した華やかな一皿です。
+                  </p>
                 </div>
               </div>
 
               <div className="border-l-4 border-blue-300 pl-4 mb-6">
                 <h3 className="text-xl font-bold text-gray-800 mb-0">
-                  2-2. ブハラ：イスラム文化の中心地
+                  2-2. 使用される米と肉の種類
                 </h3>
               </div>
 
               <p className="text-gray-700 leading-relaxed mb-6">
-                ブハラはウズベキスタンで最も歴史のある都市の一つで、イスラム文化が色濃く反映されています。
+                プロフの美味しさを左右する重要な要素が、米と肉の選択です。本場ウズベキスタンでは特定の品種が使われますが、日本でも入手可能な材料で十分美味しいプロフを作ることができます。
               </p>
 
-              <div className="space-y-4 mb-8">
-                <div>
-                  <span className="font-semibold">• アルク城：</span>
-                  ウズベキスタン最古の要塞で、ティムール帝国の時代から続いています。
+              <div className="grid md:grid-cols-2 gap-6 mb-8">
+                <div className="bg-blue-50 p-4 rounded-lg border">
+                  <h4 className="font-semibold text-gray-800 mb-3">米の種類</h4>
+                  <div className="space-y-2 text-sm">
+                    <div>
+                      <span className="font-medium">デヴズィラ米：</span>
+                      ウズベキスタンの最高級米
+                    </div>
+                    <div>
+                      <span className="font-medium">バスマティ米：</span>
+                      長粒米、日本でも入手可能
+                    </div>
+                    <div>
+                      <span className="font-medium">日本の米：</span>
+                      短粒米でも美味しく作れる
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <span className="font-semibold">
-                    • ポロ・ハウズ・モスク：
-                  </span>
-                  このモスクはその美しいデザインと静かな雰囲気が魅力的です。
+
+                <div className="bg-green-50 p-4 rounded-lg border">
+                  <h4 className="font-semibold text-gray-800 mb-3">肉の種類</h4>
+                  <div className="space-y-2 text-sm">
+                    <div>
+                      <span className="font-medium">羊肉：</span>
+                      最も伝統的、本格的な味わい
+                    </div>
+                    <div>
+                      <span className="font-medium">牛肉：</span>
+                      日本人に馴染みやすい
+                    </div>
+                    <div>
+                      <span className="font-medium">鶏肉：</span>
+                      あっさりとしたプロフに
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <span className="font-semibold">• ウルグベク天文台：</span>
-                  天文学の発展に貢献したウルグベクによって設立された天文台。
+              </div>
+            </div>
+
+            {/* Section 3 */}
+            <div className="mb-12">
+              <div className="border-l-4 border-blue-500 pl-4 mb-8">
+                <h2 className="text-2xl font-bold text-gray-800 mb-0">
+                  3. 本格プロフの作り方（家庭版レシピ）
+                </h2>
+              </div>
+
+              <div className="border-l-4 border-blue-300 pl-4 mb-6">
+                <h3 className="text-xl font-bold text-gray-800 mb-0">
+                  3-1. 必要な材料（4人分）
+                </h3>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-6 mb-8">
+                <div className="bg-gray-50 p-4 rounded-lg border">
+                  <h4 className="font-semibold text-gray-800 mb-3">
+                    メイン材料
+                  </h4>
+                  <div className="space-y-1 text-sm">
+                    <div>• 米（バスマティまたは長粒米）: 500g</div>
+                    <div>• 牛肉または羊肉（角切り）: 300g</div>
+                    <div>• 人参: 2本（細切り）</div>
+                    <div>• 玉ねぎ: 2個（薄切り）</div>
+                  </div>
+                </div>
+
+                <div className="bg-gray-50 p-4 rounded-lg border">
+                  <h4 className="font-semibold text-gray-800 mb-3">
+                    スパイス・調味料
+                  </h4>
+                  <div className="space-y-1 text-sm">
+                    <div>• クミンシード: 小さじ1</div>
+                    <div>• 塩: 適量</div>
+                    <div>• 黒胡椒: 少々</div>
+                    <div>• 植物油: 大さじ4-5</div>
+                  </div>
                 </div>
               </div>
 
               <div className="border-l-4 border-blue-300 pl-4 mb-6">
                 <h3 className="text-xl font-bold text-gray-800 mb-0">
-                  2-3. ヒヴァ：砂漠の中のオアシス都市
+                  3-2. 調理手順
                 </h3>
               </div>
 
+              <div className="space-y-6 mb-8">
+                <div className="bg-blue-50 p-4 rounded-lg border">
+                  <h4 className="font-semibold text-gray-800 mb-2">
+                    ステップ1: 下準備
+                  </h4>
+                  <p className="text-sm text-gray-700 mb-2">
+                    米を洗い、15分間水に浸してから水切りします。肉は一口大にカットし、軽く塩胡椒を振ります。野菜は人参を細切り、玉ねぎを薄切りにします。
+                  </p>
+                </div>
+
+                <div className="bg-green-50 p-4 rounded-lg border">
+                  <h4 className="font-semibold text-gray-800 mb-2">
+                    ステップ2: 肉と野菜を炒める
+                  </h4>
+                  <p className="text-sm text-gray-700 mb-2">
+                    厚手の鍋に油を熱し、強火で肉を焼きます。焼き色がついたら玉ねぎ、続いて人参を加えて炒めます。クミンシードを加え、香りが立つまで炒めます。
+                  </p>
+                </div>
+
+                <div className="bg-yellow-50 p-4 rounded-lg border">
+                  <h4 className="font-semibold text-gray-800 mb-2">
+                    ステップ3: 米を加えて炊く
+                  </h4>
+                  <p className="text-sm text-gray-700 mb-2">
+                    炒めた具材の上に米を平らに敷きます。熱湯を米が隠れるまで注ぎ（約600ml）、塩で味を調えます。強火で沸騰させた後、弱火で15-20分炊きます。
+                  </p>
+                </div>
+
+                <div className="bg-purple-50 p-4 rounded-lg border">
+                  <h4 className="font-semibold text-gray-800 mb-2">
+                    ステップ4: 蒸らしと仕上げ
+                  </h4>
+                  <p className="text-sm text-gray-700 mb-2">
+                    火を止めて10分間蒸らします。全体を混ぜ合わせて器に盛り、お好みでゆで卵やレーズンをトッピングして完成です。
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-orange-50 p-4 rounded-lg border mb-8">
+                <h4 className="font-semibold text-gray-800 mb-3">調理のコツ</h4>
+                <div className="space-y-2 text-sm text-gray-700">
+                  <div>
+                    • <span className="font-medium">油の量：</span>
+                    伝統的には多めの油を使用（旨味の源）
+                  </div>
+                  <div>
+                    • <span className="font-medium">火加減：</span>
+                    最初は強火、米を加えたら弱火で
+                  </div>
+                  <div>
+                    • <span className="font-medium">混ぜるタイミング：</span>
+                    炊いている間は混ぜない
+                  </div>
+                  <div>
+                    • <span className="font-medium">蒸らし：</span>
+                    必ず蒸らし時間を取る
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 4 */}
+            <div className="mb-12">
+              <div className="border-l-4 border-blue-500 pl-4 mb-8">
+                <h2 className="text-2xl font-bold text-gray-800 mb-0">
+                  4. 日本でプロフを味わえる場所
+                </h2>
+              </div>
+
               <p className="text-gray-700 leading-relaxed mb-6">
-                ヒヴァはウズベキスタンの西端に位置し、その保存状態の良い中世の城塞都市として有名です。
+                日本国内でも本格的なウズベキスタン料理を提供するレストランが増えており、本場の味を楽しむことができます。特に東京都内には数軒の専門店があります。
               </p>
 
-              <div className="space-y-4 mb-8">
-                <div>
-                  <span className="font-semibold">
-                    • イチャン・カラの城塞都市：
-                  </span>
-                  この城塞は、200年以上前に作られたもので、訪れる人々に古代都市の雰囲気を感じさせます。
+              <div className="space-y-6 mb-8">
+                <div className="bg-gray-50 p-6 rounded-lg border">
+                  <h4 className="font-semibold text-gray-800 mb-2">
+                    サマルカンド（高田馬場）
+                  </h4>
+                  <p className="text-sm text-gray-700 mb-3">
+                    日本で数少ない本格的なプロフ釜を持つレストラン。サマルカンド出身のシェフが作る
+                    authentic な味が楽しめます。週末は予約必須の人気店です。
+                  </p>
+                  <div className="text-xs text-gray-600">
+                    <div>📍 東京都新宿区高田馬場</div>
+                    <div>⏰ 11:30-15:00, 17:30-23:00</div>
+                  </div>
                 </div>
-                <div>
-                  <span className="font-semibold">• クフナ・アルク：</span>
-                  ヒヴァの古代の王宮で、美しいモスクや館が点在しています。
+
+                <div className="bg-gray-50 p-6 rounded-lg border">
+                  <h4 className="font-semibold text-gray-800 mb-2">
+                    ウズベキスタン料理 アロカ（新大久保）
+                  </h4>
+                  <p className="text-sm text-gray-700 mb-3">
+                    新大久保の国際色豊かなエリアにある隠れた名店。家庭的な雰囲気で本場の味を楽しめます。プロフ以外のウズベキスタン料理も充実しています。
+                  </p>
+                  <div className="text-xs text-gray-600">
+                    <div>📍 東京都新宿区大久保</div>
+                    <div>⏰ 12:00-15:00, 18:00-23:00</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-blue-50 p-4 rounded-lg border mb-8">
+                <h4 className="font-semibold text-gray-800 mb-3">
+                  食べ方のマナー
+                </h4>
+                <div className="space-y-2 text-sm text-gray-700">
+                  <div>
+                    • <span className="font-medium">共有文化：</span>
+                    大皿から皆で分け合って食べるのが伝統
+                  </div>
+                  <div>
+                    • <span className="font-medium">感謝の表現：</span>
+                    「ラフマット」（ありがとう）と言って感謝を示す
+                  </div>
+                  <div>
+                    • <span className="font-medium">ゆっくりと：</span>
+                    会話を楽しみながらゆっくりと味わう
+                  </div>
                 </div>
               </div>
             </div>
@@ -397,11 +518,15 @@ const UzbekPlovPage = () => {
               </div>
 
               <p className="text-gray-700 leading-relaxed mb-6">
-                ウズベキスタンは、シルクロードの歴史的な街並み、精緻な建築、温かい人々、美味しい料理が魅力的な国です。タシケント、サマルカンド、ブハラ、ヒヴァなど、訪れるべき都市が多く、どこに行っても素晴らしい体験と思い出を感じることができます。
+                ウズベキスタンのプロフは、単なる米料理を超えた文化的価値を持つ特別な料理です。シルクロードで育まれた豊かな味わいと、家族や友人との絆を深める社会的意義を併せ持っています。
+              </p>
+
+              <p className="text-gray-700 leading-relaxed mb-6">
+                家庭でも比較的簡単に作ることができ、日本人の味覚にも合う優しい味わいが魅力です。本格的なウズベキスタン料理を体験したい方は、ぜひ一度チャレンジしてみてください。また、東京都内の専門レストランで本場の味を楽しむのもおすすめです。
               </p>
 
               <p className="text-gray-700 leading-relaxed mb-8">
-                ウズベキスタンへの旅行に興味があれば、ぜひご連絡ください！
+                プロフを通じて、遠いシルクロードの文化に触れ、新たな美食体験を楽しんでみてはいかがでしょうか。きっと、その奥深い味わいと文化的背景に魅了されることでしょう。
               </p>
             </div>
 
@@ -411,9 +536,9 @@ const UzbekPlovPage = () => {
               <p className="text-lg mb-6 opacity-90">お問い合わせ</p>
 
               <div className="space-y-2 mb-6 text-sm opacity-90">
-                <div>• ウズベキスタンへの旅行で現地ガイドを検討している方</div>
-                <div>• ウズベキスタンでのビジネスに興味のある方</div>
-                <div>• ウズベキスタンについて取材したいメディアの方</div>
+                <div>• ウズベキスタン料理教室を検討している方</div>
+                <div>• 本格的なプロフのレシピをお求めの方</div>
+                <div>• ウズベキスタン文化について取材したいメディアの方</div>
               </div>
 
               <div className="bg-white rounded-lg p-6 text-gray-800">
@@ -438,18 +563,18 @@ const UzbekPlovPage = () => {
               <div className="text-sm text-gray-600 mb-3">見出し</div>
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="bg-blue-500 text-white px-3 py-1 rounded text-xs">
-                  オフショア開発
+                  ウズベキスタン料理
                 </span>
                 <span className="bg-blue-500 text-white px-3 py-1 rounded text-xs">
-                  システム開発
+                  プロフ・レシピ
                 </span>
               </div>
               <div className="flex flex-wrap gap-2">
                 <span className="bg-blue-500 text-white px-3 py-1 rounded text-xs">
-                  SES
+                  中央アジア
                 </span>
                 <span className="bg-blue-500 text-white px-3 py-1 rounded text-xs">
-                  オフショア開発事情
+                  シルクロード文化
                 </span>
               </div>
             </div>
@@ -478,7 +603,7 @@ const UzbekPlovPage = () => {
                         記事タイトル例 {num}
                       </h4>
                       <div className="text-xs text-blue-500">
-                        #システム開発 #オフショア開発
+                        #ウズベキスタン料理 #プロフレシピ
                       </div>
                     </div>
                   </div>
