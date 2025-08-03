@@ -22,7 +22,6 @@ const UzbekPlovPage = () => {
             </div>
           </div>
 
-          {/* Правая часть - Навигация */}
           <nav className="hidden lg:flex items-center space-x-6">
             <div className="flex items-center space-x-1 text-gray-700 hover:text-blue-500 cursor-pointer">
               <span className="text-sm font-medium">基本情報</span>
@@ -109,9 +108,9 @@ const UzbekPlovPage = () => {
           {/* Hero Image */}
           <div className="mb-8">
             <img
-              src="https://images.unsplash.com/photo-1574653106583-46aeb90ac742?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+              src="/assets/images/palov.jpg"
               alt="ウズベキスタンの伝統的なプロフ"
-              className="w-full h-80 object-cover rounded-lg"
+              className="w-full h-100 object-cover rounded-lg"
             />
             <p className="text-gray-600 text-sm mt-3 leading-relaxed">
               ウズベキスタンのプロフ（ピラフ）、スパイス、文化、料理法、注意点など、料理愛好家が知りたい情報を網羅した完全ガイド。安全で充実した料理のための必読コンテンツです。
@@ -137,44 +136,6 @@ const UzbekPlovPage = () => {
               <div className="ml-8 text-gray-600">
                 1-2-3. イスラム文化とウズベキスタン
               </div>
-              {/* <div className="ml-8 text-gray-600">
-                1-2-4. ウズベキスタンの伝統工芸
-              </div>
-              <div className="ml-6 text-gray-700">
-                1-3. 日本からウズベキスタンへのアクセス方法
-              </div>
-
-              <div className="font-bold text-gray-800 pt-2">
-                2. ウズベキスタンの主要観光地と見どころ
-              </div>
-              <div className="ml-6 text-gray-700">
-                2-1. サマルカンド：歴史と建築の宝庫
-              </div>
-              <div className="ml-6 text-gray-700">
-                2-2. ブハラ：イスラム文化の中心地
-              </div>
-              <div className="ml-6 text-gray-700">
-                2-3. ヒヴァ：砂漠の中のオアシス都市
-              </div>
-              <div className="ml-6 text-gray-700">
-                2-4. タシケント：首都、現代と伝統の共存
-              </div>
-
-              <div className="font-bold text-gray-800 pt-2">
-                3. ウズベキスタン旅行の費用目安と予算管理
-              </div>
-              <div className="ml-6 text-gray-700">3-1. 航空券と交通費</div>
-              <div className="ml-6 text-gray-700">3-2. 宿泊費</div>
-              <div className="ml-6 text-gray-700">3-3. 食事と日常生活費</div>
-              <div className="ml-6 text-gray-700">
-                3-4. 観光地の入場料とアクティビティ
-              </div>
-
-              <div className="font-bold text-gray-800 pt-2">
-                4. ウズベキスタン旅行の主要点と安全対策
-              </div>
-              <div className="ml-6 text-gray-700">4-1. 治安情報と安全対策</div>
-              <div className="ml-6 text-gray-700">4-2. ビザと入国手続き</div> */}
 
               <div className="font-bold text-blue-600 pt-2">まとめ</div>
             </div>
@@ -495,7 +456,7 @@ const UzbekPlovPage = () => {
 
             <div>
               <h3 className="text-lg font-bold mb-4 flex items-center">
-                <span className="text-blue-500 mr-2">R</span>anking
+                <p className="text-blue-500 mr-2">R</p>anking
               </h3>
               <div className="text-sm text-gray-600 mb-4">ランキング</div>
 
