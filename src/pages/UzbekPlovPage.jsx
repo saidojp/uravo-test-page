@@ -5,9 +5,7 @@ const UzbekPlovPage = () => {
     <div className="min-h-screen bg-white">
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm border-b border-gray-200/50">
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-[72px]">
-          {/* Левая часть - Логотип и текст */}
           <div className="flex items-center">
-            {/* Логотип */}
             <div>
               {" "}
               <img
