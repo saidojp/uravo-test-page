@@ -122,54 +122,114 @@ const UzbekPlovPage = () => {
               目次
             </h2>
             <div className="space-y-1 text-sm">
-              <div className="font-bold text-gray-800">
+              <a
+                href="#section1"
+                className="block font-bold text-gray-800 hover:text-blue-600 transition-colors"
+              >
                 1. ウズベキスタンのプロフとは？基本知識と文化的意義
-              </div>
-              <div className="ml-6 text-gray-700">1-1. プロフの基本情報</div>
-              <div className="ml-6 text-gray-700">1-2. 文化的・社会的意義</div>
-              <div className="ml-8 text-gray-600">
+              </a>
+              <a
+                href="#section1-1"
+                className="block ml-6 text-gray-700 hover:text-blue-600 transition-colors"
+              >
+                1-1. プロフの基本情報
+              </a>
+              <a
+                href="#section1-2"
+                className="block ml-6 text-gray-700 hover:text-blue-600 transition-colors"
+              >
+                1-2. 文化的・社会的意義
+              </a>
+              <a
+                href="#section1-2-1"
+                className="block ml-8 text-gray-600 hover:text-blue-600 transition-colors"
+              >
                 1-2-1. 国民食としての地位
-              </div>
-              <div className="ml-8 text-gray-600">
+              </a>
+              <a
+                href="#section1-2-2"
+                className="block ml-8 text-gray-600 hover:text-blue-600 transition-colors"
+              >
                 1-2-2. プロフの語源と歴史
-              </div>
-              <div className="ml-8 text-gray-600">
+              </a>
+              <a
+                href="#section1-2-3"
+                className="block ml-8 text-gray-600 hover:text-blue-600 transition-colors"
+              >
                 1-2-3. 男性が作る伝統料理
-              </div>
+              </a>
 
-              <div className="font-bold text-gray-800 pt-2">
+              <a
+                href="#section2"
+                className="block font-bold text-gray-800 pt-2 hover:text-blue-600 transition-colors"
+              >
                 2. プロフの種類と地域別特徴
-              </div>
-              <div className="ml-6 text-gray-700">2-1. 主要な種類</div>
-              <div className="ml-6 text-gray-700">
+              </a>
+              <a
+                href="#section2-1"
+                className="block ml-6 text-gray-700 hover:text-blue-600 transition-colors"
+              >
+                2-1. 主要な種類
+              </a>
+              <a
+                href="#section2-2"
+                className="block ml-6 text-gray-700 hover:text-blue-600 transition-colors"
+              >
                 2-2. 使用される米と肉の種類
-              </div>
+              </a>
 
-              <div className="font-bold text-gray-800 pt-2">
+              <a
+                href="#section3"
+                className="block font-bold text-gray-800 pt-2 hover:text-blue-600 transition-colors"
+              >
                 3. 本格プロフの作り方（家庭版レシピ）
-              </div>
-              <div className="ml-6 text-gray-700">3-1. 必要な材料</div>
-              <div className="ml-6 text-gray-700">3-2. 調理手順</div>
+              </a>
+              <a
+                href="#section3-1"
+                className="block ml-6 text-gray-700 hover:text-blue-600 transition-colors"
+              >
+                3-1. 必要な材料
+              </a>
+              <a
+                href="#section3-2"
+                className="block ml-6 text-gray-700 hover:text-blue-600 transition-colors"
+              >
+                3-2. 調理手順
+              </a>
 
-              <div className="font-bold text-gray-800 pt-2">
+              <a
+                href="#section4"
+                className="block font-bold text-gray-800 pt-2 hover:text-blue-600 transition-colors"
+              >
                 4. 日本でプロフを味わえる場所
-              </div>
+              </a>
 
-              <div className="font-bold text-blue-600 pt-2">まとめ</div>
+              <a
+                href="#summary"
+                className="block font-bold text-blue-600 pt-2 hover:text-blue-800 transition-colors"
+              >
+                まとめ
+              </a>
             </div>
           </div>
 
           {/* Article Content */}
           <article className="prose max-w-none">
             {/* Section 1 */}
-            <div className="mb-12">
-              <div className="border-l-4 border-blue-500 pl-4 mb-8">
+            <div id="section1" className="mb-12">
+              <div
+                id="section1"
+                className="border-l-4 border-blue-500 pl-4 mb-8"
+              >
                 <h2 className="text-2xl font-bold text-gray-800 mb-0">
                   1. ウズベキスタンのプロフとは？基本知識と文化的意義
                 </h2>
               </div>
 
-              <div className="border-l-4 border-blue-300 pl-4 mb-6">
+              <div
+                id="section1-1"
+                className="border-l-4 border-blue-300 pl-4 mb-6"
+              >
                 <h3 className="text-xl font-bold text-gray-800 mb-0">
                   1-1. プロフの基本情報
                 </h3>
@@ -200,7 +260,10 @@ const UzbekPlovPage = () => {
                 </div>
               </div>
 
-              <div className="border-l-4 border-blue-300 pl-4 mb-6">
+              <div
+                id="section1-2"
+                className="border-l-4 border-blue-300 pl-4 mb-6"
+              >
                 <h3 className="text-xl font-bold text-gray-800 mb-0">
                   1-2. 文化的・社会的意義
                 </h3>
@@ -210,7 +273,7 @@ const UzbekPlovPage = () => {
                 プロフは単なる料理以上の存在です。ウズベキスタンの社会において、家族の絆を深め、客人をもてなし、特別な日を祝う象徴的な料理として機能しています。その文化的重要性を理解することで、プロフの真の魅力を感じることができるでしょう。
               </p>
 
-              <h4 className="font-bold text-gray-800 mb-3">
+              <h4 id="section1-2-1" className="font-bold text-gray-800 mb-3">
                 1-2-1. 国民食としての地位
               </h4>
               <p className="text-gray-700 leading-relaxed mb-4">
@@ -221,7 +284,7 @@ const UzbekPlovPage = () => {
                 興味深いことに、プロフは宴会の「締めくくり」を意味する料理でもあります。家の主人がプロフを作って出すことで、「今日の集まりはここでお開きです」という合図になるのです。この慣習は現在でも厳格に守られています。
               </p>
 
-              <h4 className="font-bold text-gray-800 mb-3">
+              <h4 id="section1-2-2" className="font-bold text-gray-800 mb-3">
                 1-2-2. プロフの語源と歴史
               </h4>
               <p className="text-gray-700 leading-relaxed mb-4">
@@ -232,7 +295,7 @@ const UzbekPlovPage = () => {
                 中国からヨーロッパに至るシルクロードの要所に位置するウズベキスタンでは、東西の食文化が出会い、独自の発展を遂げました。そのため、プロフには中国の炒飯、インドのビリヤニ、中東のピラフの要素が巧みに組み合わされているのです。
               </p>
 
-              <h4 className="font-bold text-gray-800 mb-3">
+              <h4 id="section1-2-3" className="font-bold text-gray-800 mb-3">
                 1-2-3. 男性が作る伝統料理
               </h4>
               <p className="text-gray-700 leading-relaxed mb-4">
@@ -245,14 +308,17 @@ const UzbekPlovPage = () => {
             </div>
 
             {/* Section 2 */}
-            <div className="mb-12">
+            <div id="section2" className="mb-12">
               <div className="border-l-4 border-blue-500 pl-4 mb-8">
                 <h2 className="text-2xl font-bold text-gray-800 mb-0">
                   2. プロフの種類と地域別特徴
                 </h2>
               </div>
 
-              <div className="border-l-4 border-blue-300 pl-4 mb-6">
+              <div
+                id="section2-1"
+                className="border-l-4 border-blue-300 pl-4 mb-6"
+              >
                 <h3 className="text-xl font-bold text-gray-800 mb-0">
                   2-1. 主要な種類
                 </h3>
@@ -291,7 +357,10 @@ const UzbekPlovPage = () => {
                 </div>
               </div>
 
-              <div className="border-l-4 border-blue-300 pl-4 mb-6">
+              <div
+                id="section2-2"
+                className="border-l-4 border-blue-300 pl-4 mb-6"
+              >
                 <h3 className="text-xl font-bold text-gray-800 mb-0">
                   2-2. 使用される米と肉の種類
                 </h3>
@@ -341,14 +410,17 @@ const UzbekPlovPage = () => {
             </div>
 
             {/* Section 3 */}
-            <div className="mb-12">
+            <div id="section3" className="mb-12">
               <div className="border-l-4 border-blue-500 pl-4 mb-8">
                 <h2 className="text-2xl font-bold text-gray-800 mb-0">
                   3. 本格プロフの作り方（家庭版レシピ）
                 </h2>
               </div>
 
-              <div className="border-l-4 border-blue-300 pl-4 mb-6">
+              <div
+                id="section3-1"
+                className="border-l-4 border-blue-300 pl-4 mb-6"
+              >
                 <h3 className="text-xl font-bold text-gray-800 mb-0">
                   3-1. 必要な材料（4人分）
                 </h3>
@@ -380,7 +452,10 @@ const UzbekPlovPage = () => {
                 </div>
               </div>
 
-              <div className="border-l-4 border-blue-300 pl-4 mb-6">
+              <div
+                id="section3-2"
+                className="border-l-4 border-blue-300 pl-4 mb-6"
+              >
                 <h3 className="text-xl font-bold text-gray-800 mb-0">
                   3-2. 調理手順
                 </h3>
@@ -448,7 +523,7 @@ const UzbekPlovPage = () => {
             </div>
 
             {/* Section 4 */}
-            <div className="mb-12">
+            <div id="section4" className="mb-12">
               <div className="border-l-4 border-blue-500 pl-4 mb-8">
                 <h2 className="text-2xl font-bold text-gray-800 mb-0">
                   4. 日本でプロフを味わえる場所
@@ -510,7 +585,7 @@ const UzbekPlovPage = () => {
             </div>
 
             {/* Conclusion */}
-            <div className="mb-12">
+            <div id="summary" className="mb-12">
               <div className="border-l-4 border-blue-500 pl-4 mb-6">
                 <h2 className="text-2xl font-bold text-gray-800 mb-0">
                   まとめ
