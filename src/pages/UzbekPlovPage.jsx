@@ -609,9 +609,9 @@ const UzbekPlovPage = () => {
               <p className="text-lg mb-6 opacity-90">お問い合わせ</p>
 
               <div className="space-y-2 mb-6 text-sm opacity-90">
-                <div>• ウズベキスタン料理教室を検討している方</div>
-                <div>• 本格的なプロフのレシピをお求めの方</div>
-                <div>• ウズベキスタン文化について取材したいメディアの方</div>
+                <div>• ウズベキスタンへの旅行で現地ガイドを検討している方</div>
+                <div>• ウズベキスタンでのビジネスに興味のある方</div>
+                <div>• ウズベキスタンについて取材をしたいメディアの方</div>
               </div>
 
               <div className="bg-white rounded-lg p-6 text-gray-800">
