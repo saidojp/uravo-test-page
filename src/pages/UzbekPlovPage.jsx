@@ -429,7 +429,7 @@ const UzbekPlovPage = () => {
         </main>
 
         {/* Sidebar */}
-        <aside className="w-80 hidden lg:block">
+        {/* <aside className="w-80 hidden lg:block">
           <div className="sticky top-4">
             <div className="mb-8">
               <h3 className="text-lg font-bold mb-4 flex items-center">
@@ -486,7 +486,7 @@ const UzbekPlovPage = () => {
               </div>
             </div>
           </div>
-        </aside>
+        </aside> */}
       </div>
 
       {/* Footer */}
