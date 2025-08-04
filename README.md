@@ -1,6 +1,6 @@
 # Uravo Test Page
 
-A React web application built with Vite and Tailwind CSS featuring a comprehensive guide about Uzbek Plov cuisine.
+A Simple React web page built with Vite and Tailwind CSS
 
 ## 🚀 Quick Start / クイックスタート
 
