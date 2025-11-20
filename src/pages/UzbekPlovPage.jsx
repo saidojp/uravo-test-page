@@ -30,7 +30,7 @@ const UzbekPlovPage = () => {
             #ウズベキスタン料理
           </div>
           <div className="text-sm text-white mb-2 opacity-90">
-            公開日：2025/08/01 ｜ 作成者：ウラボ編集部
+            公開日：2025/11/19 ｜ 作成者：サイード
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight">
             ウズベキスタンプロフ完全ガイド：主要材料や料理予算を徹底解説！
