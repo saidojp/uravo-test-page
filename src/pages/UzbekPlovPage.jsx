@@ -4,71 +4,10 @@ const UzbekPlovPage = () => {
   return (
     <div className="min-h-screen bg-white">
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm border-b border-gray-200/50">
-        <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-[72px]">
-          <div className="flex items-center">
-            <div>
-              {" "}
-              <img
-                src="/logo.png"
-                alt="Uラボ Logo"
-                className="h-14 w-auto object-contain"
-              />
-            </div>
-
-            <div className="text-sm text-gray-600 font-medium  pl-4 ml-4">
-              ウズベキスタン情報局
-            </div>
-          </div>
-
-          <nav className="hidden lg:flex items-center space-x-6">
-            <div className="flex items-center space-x-1 text-gray-700 hover:text-blue-500 cursor-pointer">
-              <span className="text-sm font-medium">基本情報</span>
-              <svg
-                className="w-4 h-4 text-gray-400"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M19 9l-7 7-7-7"
-                />
-              </svg>
-            </div>
-            <div className="flex items-center space-x-1 text-gray-700 hover:text-blue-500 cursor-pointer">
-              <span className="text-sm font-medium">エリアガイド</span>
-              <svg
-                className="w-4 h-4 text-gray-400"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M19 9l-7 7-7-7"
-                />
-              </svg>
-            </div>
-            <a
-              href="#"
-              className="text-gray-700 hover:text-blue-500 cursor-pointer text-sm font-medium"
-            >
-              モデルコース
-            </a>
-            <a
-              href="#"
-              className="text-gray-700 hover:text-blue-500 cursor-pointer text-sm font-medium"
-            >
-              ビジネス
-            </a>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-medium">
-              お問い合わせする
-            </button>
-          </nav>
+        <div className="max-w-7xl mx-auto px-4 flex justify-center items-center h-[72px]">
+          <h1 className="text-3xl md:text-4xl font-extrabold tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-cyan-500 to-green-500 drop-shadow-sm">
+            Hamadato
+          </h1>
         </div>
       </header>
 
@@ -78,7 +17,7 @@ const UzbekPlovPage = () => {
       <div className="bg-gray-50 py-1">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-sm text-gray-600">
-            Uラボ｜ウズベキスタン情報局 ＞
+            ｜ウズベキスタン情報局 ＞
             ウズベキスタン完全ガイド：主要料理地や旅行予算を徹底解説！
           </div>
         </div>
@@ -604,24 +543,18 @@ const UzbekPlovPage = () => {
             </div>
 
             {/* Contact Section */}
-            <div className="bg-gradient-to-r from-blue-500 to-green-500 rounded-lg p-8 text-white text-center">
-              <h3 className="text-2xl font-bold mb-2">Contact</h3>
-              <p className="text-lg mb-6 opacity-90">お問い合わせ</p>
-
-              <div className="space-y-2 mb-6 text-sm opacity-90">
-                <div>• ウズベキスタンへの旅行で現地ガイドを検討している方</div>
-                <div>• ウズベキスタンでのビジネスに興味のある方</div>
-                <div>• ウズベキスタンについて取材をしたいメディアの方</div>
-              </div>
-
-              <div className="bg-white rounded-lg p-6 text-gray-800">
-                <p className="mb-4 text-sm">
-                  無料でのご相談も承りますので、お気軽にお問い合わせください
-                </p>
-                <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-medium">
-                  1分で簡単お問い合わせ ＞
-                </button>
-              </div>
+            <div className="bg-gradient-to-r from-blue-500 to-green-500 rounded-lg p-10 text-center">
+              <h3 className="text-2xl font-bold text-white mb-6">
+                More Information
+              </h3>
+              <a
+                href="https://hamadato.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-white text-blue-700 hover:text-blue-800 hover:bg-white/90 font-semibold px-8 py-3 rounded-lg shadow transition"
+              >
+                hamadato.com を見る ＞
+              </a>
             </div>
           </article>
         </main>
@@ -688,38 +621,14 @@ const UzbekPlovPage = () => {
       </div>
 
       {/* Footer */}
-      <footer className="bg-gray-100 py-8 mt-16">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="flex justify-between items-center">
-            <div className="flex items-center space-x-3">
-              <div className="w-10 h-8 flex items-center justify-center">
-                <img
-                  src="/logo.png"
-                  alt="Uラボ Logo"
-                  className="w-10 h-6 object-contain"
-                />
-              </div>
-              <span className="text-lg font-bold text-gray-800">
-                Uラボ ウズベキスタン情報局
-              </span>
-            </div>
-            <div className="flex space-x-6 text-sm text-gray-600">
-              <a href="#" className="hover:text-gray-800">
-                プライバシーポリシー
-              </a>
-              <a href="#" className="hover:text-gray-800">
-                利用規約
-              </a>
-              <a href="#" className="hover:text-gray-800">
-                運営者情報
-              </a>
-              <a href="#" className="hover:text-gray-800">
-                お問い合わせ
-              </a>
-            </div>
-          </div>
-          <div className="text-center text-xs text-gray-500 mt-4">
-            Copyright © HaroK group. All Rights Reserved.
+      <footer className="bg-gradient-to-r from-blue-600 via-cyan-500 to-green-500 py-10 mt-16 text-white">
+        <div className="max-w-7xl mx-auto px-4 text-center space-y-3">
+          <h2 className="text-2xl font-extrabold tracking-wide">Hamadato</h2>
+          <p className="text-xs opacity-80">
+            Exploring Central Asian Culture & Taste
+          </p>
+          <div className="text-[10px] opacity-60">
+            © {new Date().getFullYear()} Hamadato. All rights reserved.
           </div>
         </div>
       </footer>
